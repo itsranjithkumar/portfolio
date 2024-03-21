@@ -202,8 +202,8 @@ img{
   color: var(--first-color);
 }
 .home_social{
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .home_social-icon{
@@ -244,9 +244,10 @@ img{
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-.section-title{
+
+.section-title {
   position: relative;
-  font-size: relative;
+  font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
@@ -266,8 +267,8 @@ img{
 /* ABOUT SECTION*/
 
 .about_container{
-       row-gap: 2rem;
-       text-align: center;
+  row-gap: 2rem;
+  text-align: center;
 }
 
 .about_subtitles{
@@ -277,8 +278,8 @@ img{
   justify-content: center;
 }
 .about_img svg{
-    width: 300px;
-    border-radius: 0.5rem;
+  width: 300px;
+  border-radius: 0.5rem;
 }
 
 /* Skills*/
@@ -288,23 +289,27 @@ img{
 }
 
 .skills_subtitle {
-  margin-bottom: var(--mb-4)
+  margin-bottom: var(--mb-2);
+}
+
+.skills_text {
+  margin-bottom: var(--mb-4);
 }
 .skills_data{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: relative;
-   font-weight: var(--font-semi);
-   padding: 0.5rem 1rem;
-   margin-bottom: var(--mb-4);
-   border-radius: 0.5rem;
-   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: 0.5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
 }
 .skill_icon{
-     font-size: 2rem;
-     margin-right: var(--mb-2);
-    color: var(--first-color);
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
 }
 .skills_name{
   display: flex;
@@ -330,7 +335,7 @@ img{
   width: 75%;
 }
 .skill_ui{
- width: 85%;
+  width: 85%;
 }
 
 
@@ -345,9 +350,9 @@ img{
 }
 
 .work_img{
-    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-    border-radius: 0.5rem;
-    overflow: hidden;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .work_img img{
@@ -356,6 +361,6 @@ img{
 }
 
 .work_img img:hover{
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
