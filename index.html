@@ -16,7 +16,7 @@
     <header class="header">
         <nav class="nav bd_grid">
             <div>
-                <a href="#" class="nav_logo">codewithvetri</a>
+                <a href="#" class="nav_logo">codewithRanjith</a>
             </div>
 
             <div class="nav_menu" id="nav_menu">
@@ -39,18 +39,18 @@
     <main class="main">
         <!---HOME SECTION-->
         <section class="home bd_grid" id="home">
-            <div class="home_data">
+            <div class="home_data" data-aos="fade-down">
                 <h1 class="home_title">Hi, <br>I'm <span class="home_title-color">Ranjith Kumar</span><br />web designer
                 </h1>
                 <a href="#contact" class="button">contact</a>
             </div>
 
-            <div class="home_social"><a href="#" class="home_social-icon"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-instagram'></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-twitter'></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-github'></i><a>
+            <div class="home_social"><a href="#" class="home_social-icon" data-aos="fade-down"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" class="home_social-icon" data-aos="fade-down"  data-aos-delay="250"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="home_social-icon" data-aos="fade-down"  data-aos-delay="300"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="home_social-icon" data-aos="fade-down"  data-aos-delay="350"><i class='bx bxl-github'></i><a>
             </div>
-            <div class="home_img">
+            <div class="home_img" data-aos="fade-down" data-aos-delay="500" >
                 <svg id="a154b3ae-224e-4b43-86b8-0ffeb27982c5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1144 637">
                     <title>working remotely</title>
@@ -218,11 +218,11 @@
         <!---ABOUT SECTION-->
         <section class="about section" id="about">
 
-            <h2 class="section-title">About</h2>
+            <h2 class="section-title" data-aos="fade-down">About</h2>
 
             <div class="about_container bd_grid">
 
-                <div class="about_img">
+                <div class="about_img" data-aos="fade-down" data-aos-delay="50">
                     <svg id="fe80fb2b-bcaf-407e-919b-306adc32f78b" data-name="Layer 1"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1032 741.75278">
                         <title>profile</title>
@@ -311,8 +311,8 @@
                 </div>
 
                 <div>
-                    <h2 class="about_subtitle">I'm Ranjith Kumar</h2>
-                    <p class="about_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellendus
+                    <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">I'm Ranjith Kumar</h2>
+                    <p class="about_text" data-aos="fade-down" data-aos-delay="450">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellendus
                         optio sunt fugit autem pariatur quam tenetur in, molestias nemo voluptas similique eligendi
                         laborum veniam consequuntur architecto dolorum quasi odit?</p>
                 </div>
@@ -324,14 +324,14 @@
         <!---SKILLS SECTION-->
         <section class="skills section" id="skills">
 
-            <h2 class="section-title">skills</h2>
+            <h2 class="section-title" data-aos="fade-down">skills</h2>
 
             <div class="skills_container bd_grid">
                 <div>
 
                 </div>
-                <h2 class="skills_subtitle"> professional skills</h2>
-                <p class="skills_text">without sharpen your weapon; standing on the battlefield would not increase your
+                <h2 class="skills_subtitle" data-aos="fade-down" data-aos-delay="250"> professional skills</h2>
+                <p class="skills_text" data-aos="fade-down" data-aos-delay="350">without sharpen your weapon; standing on the battlefield would not increase your
                     chance of winning</p>
 
                 <!--skills HTML-->
@@ -533,12 +533,53 @@
      </section>
         <!---CONTACT SECTION-->
 
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">contact</h2>
+
+            <div class="contact_container bd_grid">
+
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="name" class="control_input">
+                    <input type="mail" placeholder="Email" class="control_input">
+                    <textarea name="" id="" cols="0" rows="10" class="control_input"></textarea>
+
+
+                    <input type="button" value="send" class="control_button button"/>
+            </div>
+
+        </section>
+
+        <!--footer section-->
+        <footer class="footer">
+            <p class="footer_title">Ranjith Kumar</p>
+
+            <div class="footer_socials">
+
+                <div class="footer_social"><a href="#" class="footer_icon"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#" class="footer_icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer_icon"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer_icon"><i class='bx bxl-github'></i><a>
+                </div>
+
+                <p>&#169; 2021 copyright all right reserved</p>
+
+            </div>
+        </footer>
+
     </main>
 
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: false,
+        });
+      </script>
 
 
 </body>
