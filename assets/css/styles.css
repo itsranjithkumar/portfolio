@@ -528,3 +528,12 @@ img {
     right: 10%;
   }
 }
+@media screen and (main-width: 1024px){
+  .bd_grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.home_img{
+     right: 10;
+}
